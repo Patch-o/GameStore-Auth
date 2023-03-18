@@ -40,7 +40,7 @@ app.use((req,res,next) => {
 //CORS
 app.use(
   cors({
-    origin: [process.env.origin],
+    origin: ['*'],
     credentials: true,
   })
 );
